@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.menu-header {
+  background-color: #ff0077;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.category-filter {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  gap: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.category-button {
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border: none;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.category-button.active {
+  background-color: #ff0077;
+  color: white;
+}
+
+.menu-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.menu-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.menu-info {
+  margin-bottom: 0.5rem;
+}
+
+.add-to-cart {
+  background-color: #ff0077;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.checkout-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.checkout-button {
+  background-color: #ff0077;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
